@@ -83,7 +83,7 @@ if __name__ == "__main__":
             print("Draw")
             break
         X.append(algo())
-        # displayOX()
+        displayOX()
         if checkWin(X):
             print("I win")
             break
