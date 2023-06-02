@@ -20,7 +20,7 @@ def displayOX():
     OX[X] = 'X'
     print(OX.reshape(3, 3))
 
-def AI():
+def algo():
     validMove = [i for i in range(9) if i not in (O+X)]
     V = [-100]*9
     for m in validMove:
@@ -30,7 +30,6 @@ def AI():
             move = [i for i in forceMove if i in validMove]
             return random.choice(move)
     maxV = max(V)
-    print(V)
     imaxV = [i for i, j in enumerate(V) if j == maxV]
     return random.choice(imaxV)
         
@@ -63,20 +62,27 @@ if __name__ == "__main__":
     print(" 3 | 4 | 5 ")
     print("---+---+---")
     print(" 6 | 7 | 8 ")
-    displayOX()
+    print("Input -1 to exit")
     while True:
-        move = input("Your move: ")
-        while  (move.isdigit() == False) or int(move) in O+X or int(move) not in range(9):
-            move = input("Invalid move, please input again: ")
-        move = int(move)
-        O.append(move)
+        # move = input("Your move (enter a number 0-8): ")
+        # try:
+        #     move = int(move)
+        #     if move == -1:
+        #         break
+        #     if move not in range(9) or move in O+X:
+        #         print("Invalid move, please try again.")
+        #         continue
+        # except ValueError:
+        #     print("Invalid move, please try again.")
+        #     continue
+        O.append(algo())
         if checkWin(O):
             print("You win")
             break
         if len(O)+len(X) == 9:
             print("Draw")
             break
-        X.append(AI())
+        X.append(algo())
         displayOX()
         if checkWin(X):
             print("I win")
