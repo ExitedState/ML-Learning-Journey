@@ -24,33 +24,32 @@ def algo():
     validMove = [i for i in range(9) if i not in (O+X)]
     V = [-100]*9
     for m in validMove:
-        tempX = X + [m]
-        if checkWin(tempX):  # If can win with this move, do it
-            return m
-    for m in validMove:
-        tempO = O + [m]
-        if checkWin(tempO):  # If opponent can win with this move, block it
+        if checkWin(X + [m]):  # If can win with this move, do it
             return m
     for m in validMove:  # Original strategy
-        tempX = X + [m]
-        V[m] = evalOX(O,tempX)
-    maxV = max(V)
-    imaxV = [i for i, j in enumerate(V) if j == maxV]
-    return random.choice(imaxV)
+        V[m],forceMove = evalOX(O,X + [m])
+        if(len(forceMove)>0):
+            move = [i for i in forceMove if i in validMove]
+            return random.choice(move)
+    maxV = [i for i, j in enumerate(V) if j == max(V)]
+    return random.choice(maxV)
 
 def evalOX(O,X):
-    SO,SX = calSOX(O,X)
-    return 1+SX-SO
+    SO,SX,forceMove = calSOX(O,X)
+    return 1+SX-SO,forceMove
 def calSOX(O,X):
     SO = SX = 0
+    forceMove = []
     for w in win:
         o = [i in O for i in w]
         x = [i in X for i in w]
         if not any(x):
             SO += o.count(True)
+            if(o.count(True)==2):
+                forceMove = w
         if not any(o):
             SX += x.count(True)
-    return SO,SX
+    return SO,SX,forceMove
     
 if __name__ == "__main__":
     print("Welcome to XO game")
