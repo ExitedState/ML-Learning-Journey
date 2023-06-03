@@ -1,3 +1,4 @@
+# not use minimax algo so it is not perfect move
 import numpy as np
 import random
 
