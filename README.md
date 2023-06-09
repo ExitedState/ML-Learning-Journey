@@ -7,5 +7,5 @@ This repository documents my self-taught journey to learn Machine Learning from 
 - **Day1** Review my Linear Algebra, Calculus, Prob/Stat, Python and overview concept of ML
 - **Day2** Concept Learning : Find-S, List-Then-Eliminate
 - **Day3** Candidate Elimination
-- **Day4-6** k-NN,CNN algorithm
+- **Day4-6** k-NN algorithm
 - **Day7** learn more numpy useful functions and methods
