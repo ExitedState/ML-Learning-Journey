@@ -8,4 +8,4 @@ This repository documents my self-taught journey to learn Machine Learning from 
 - **Day2** Concept Learning : Find-S, List-Then-Eliminate
 - **Day3** Candidate Elimination
 - **Day4-6** k-NN,CNN algorithm
-- **Day 7** learn more numpy useful functions and methods
+- **Day7** learn more numpy useful functions and methods
