@@ -4,7 +4,7 @@ This repository documents my self-taught journey to learn Machine Learning from 
 
 ## Overview
 
-- **Day1** Review my Linear Algebra, Calculus, Prob/Stat, Python and overview concept of ML
+- **Day1 (1 June 2023)** Review my Linear Algebra, Calculus, Prob/Stat, Python and overview concept of ML
 - **Day2** Concept Learning : Find-S, List-Then-Eliminate (clustering)
 - **Day3** Candidate Elimination
 - **Day4-6** Focused on understanding and implementing the k-NN
