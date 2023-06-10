@@ -9,3 +9,4 @@ This repository documents my self-taught journey to learn Machine Learning from 
 - **Day3** Candidate Elimination
 - **Day4-6** k-NN algorithm
 - **Day7** learn more numpy useful functions and methods
+- **Day8** move to learn course in [coursera](https://www.coursera.org/specializations/machine-learning-introduction)
