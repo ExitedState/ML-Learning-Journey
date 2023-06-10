@@ -5,8 +5,15 @@ This repository documents my self-taught journey to learn Machine Learning from 
 ## Overview
 
 - **Day1** Review my Linear Algebra, Calculus, Prob/Stat, Python and overview concept of ML
-- **Day2** Concept Learning : Find-S, List-Then-Eliminate
+- **Day2** Concept Learning : Find-S, List-Then-Eliminate (clustering)
 - **Day3** Candidate Elimination
-- **Day4-6** k-NN algorithm
+- **Day4-6** Focused on understanding and implementing the k-NN
 - **Day7** learn more numpy useful functions and methods
-- **Day8** move to learn course in [coursera](https://www.coursera.org/specializations/machine-learning-introduction)
+ 
+_END OF WEEK 1_
+
+---
+
+_WEEK 2_
+- **Day8++**  I'm progressing through the 'Introduction to Machine Learning' course on [coursera](https://www.coursera.org/specializations/machine-learning-introduction). Below, I've shared what I've learned so far.
+- Linear regression model
