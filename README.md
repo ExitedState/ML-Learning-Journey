@@ -16,4 +16,6 @@ _END OF WEEK 1_
 
 _WEEK 2_
 - **Day8++**  I'm progressing through the 'Introduction to Machine Learning' course on [coursera](https://www.coursera.org/specializations/machine-learning-introduction). Below, I've shared what I've learned so far.
-- Linear regression model
+- Linear regression with one variable
+- Cost function
+- Gradient Descent
