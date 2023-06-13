@@ -297,8 +297,8 @@ def plt_divergence(p_hist, J_hist, x_train,y_train):
 
     # Print w vs cost to see minimum
     fix_b = 100
-    w_array = np.arange(-70000, 70000, 1000)
-    cost = np.zeros_like(w_array)
+    w_array = np.arange(-70000, 70000, 1000,dtype=np.float64)
+    cost = np.zeros_like(w_array,dtype=np.float64)
 
     for i in range(len(w_array)):
         tmp_w = w_array[i]
@@ -315,8 +315,8 @@ def plt_divergence(p_hist, J_hist, x_train,y_train):
     # Second Subplot
     #===============
 
-    tmp_b,tmp_w = np.meshgrid(np.arange(-35000, 35000, 500),np.arange(-70000, 70000, 500))
-    z=np.zeros_like(tmp_b)
+    tmp_b,tmp_w = np.meshgrid(np.arange(-35000, 35000, 500,dtype=np.float64),np.arange(-70000, 70000, 500,dtype=np.float64))
+    z=np.zeros_like(tmp_b,dtype=np.float64)
     for i in range(tmp_w.shape[0]):
         for j in range(tmp_w.shape[1]):
             z[i][j] = compute_cost(x_train, y_train, tmp_w[i][j], tmp_b[i][j] )
