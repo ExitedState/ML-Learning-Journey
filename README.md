@@ -21,3 +21,8 @@ _WEEK 2_
   - Gradient Descent
 - Multiple linear regression
   - Vectorization
+  - Gradient Descent With Multiple Variables
+  - Feature Scaling and Learning Rate
+- Sklearn
+  - GD
+  - normal equation
