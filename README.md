@@ -26,3 +26,17 @@ _WEEK 2_
 - Sklearn
   - GD
   - normal equation
+
+---
+
+_WEEK 3_
+- Classification , sigmoid function
+- Logistic regression
+  - Decision Boundary
+  - Cost function
+  - Gradient Descent
+- Scikit for logistic regression
+- Overfitting
+- Regularization
+
+---
