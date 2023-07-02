@@ -29,7 +29,7 @@ _WEEK 2_
 
 ---
 
-_WEEK 3_
+_WEEK 3+4_
 - Classification , sigmoid function
 - Logistic regression
   - Decision Boundary
@@ -40,3 +40,6 @@ _WEEK 3_
 - Regularization
 
 ---
+
+_WEEK 5_
+- Introduction of neural network
