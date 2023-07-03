@@ -43,3 +43,4 @@ _WEEK 3+4_
 
 _WEEK 5_
 - Introduction of neural network
+- Neurons and Layer 
