@@ -43,4 +43,5 @@ _WEEK 3+4_
 
 _WEEK 5_
 - Introduction of neural network
-- Neurons and Layer 
+- Neurons and Layer
+- implement with tensorflow (use Tensorflow 2.7.0 _**out of date**_)
