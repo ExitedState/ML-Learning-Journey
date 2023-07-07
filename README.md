@@ -38,10 +38,17 @@ _WEEK 3+4_
 - Scikit for logistic regression
 - Overfitting
 - Regularization
-
+- 
+_**END COURSE 1 and start COURSE 2**_
+  
 ---
 
 _WEEK 5_
 - Introduction of neural network
 - Neurons and Layer
 - implement with tensorflow (use Tensorflow 2.7.0 _**out of date**_)
+- Vectorization in each layer
+
+---
+
+_WEEK 6_
