@@ -53,3 +53,6 @@ _WEEK 5_
 
 _WEEK 6_
 - Tensorflow detail
+- Relu
+- Softmax
+- Multiclass vs MultiLabel
