@@ -56,3 +56,4 @@ _WEEK 6_
 - Relu
 - Softmax
 - Multiclass vs MultiLabel
+- Optimization and Advance Optimization
