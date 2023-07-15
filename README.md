@@ -57,3 +57,5 @@ _WEEK 6_
 - Softmax
 - Multiclass vs MultiLabel
 - Optimization and Advance Optimization
+- Back propagation
+  - computation graph
