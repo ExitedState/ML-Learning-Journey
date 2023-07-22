@@ -60,5 +60,10 @@ _WEEK 6_
 - Back propagation
   - computation graph
 
- _WEEK 7_
- - Bias and variance
+---
+
+_WEEK 7_
+- Bias and variance
+  - Learning curves
+  - Bias and variance in neaural networks
+ 
