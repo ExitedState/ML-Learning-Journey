@@ -59,3 +59,6 @@ _WEEK 6_
 - Optimization and Advance Optimization
 - Back propagation
   - computation graph
+
+ _WEEK 7_
+ - Bias and variance
