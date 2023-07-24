@@ -66,4 +66,10 @@ _WEEK 7_
 - Bias and variance
   - Learning curves
   - Bias and variance in neaural networks
- 
+- Error analysis
+- Skewed datasets
+
+---
+
+_WEEK 8_
+- Dicision tree model
