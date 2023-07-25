@@ -73,3 +73,4 @@ _WEEK 7_
 
 _WEEK 8_
 - Dicision tree model
+  - Learning Process
