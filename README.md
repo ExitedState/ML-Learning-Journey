@@ -38,7 +38,7 @@ _WEEK 3+4_
 - Scikit for logistic regression
 - Overfitting
 - Regularization
-- 
+
 _**END COURSE 1 and start COURSE 2**_
   
 ---
@@ -75,3 +75,4 @@ _WEEK 8_
 - Dicision tree model
   - Learning Process
   - Information gain
+- Regresion tree 
