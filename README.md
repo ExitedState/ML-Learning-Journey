@@ -75,4 +75,7 @@ _WEEK 8_
 - Dicision tree model
   - Learning Process
   - Information gain
-- Regresion tree 
+- Regresion tree
+- Tree ensembles
+  - Random forest algorithm
+  - XGBoost
