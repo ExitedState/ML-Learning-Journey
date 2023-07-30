@@ -39,7 +39,7 @@ _WEEK 3+4_
 - Overfitting
 - Regularization
 
-_**END COURSE 1 and start COURSE 2**_
+_**END COURSE 1 and start COURSE 2 :** Advanced Learning Algorithms_
   
 ---
 
@@ -79,3 +79,9 @@ _WEEK 8_
 - Tree ensembles
   - Random forest algorithm
   - XGBoost
+
+_**start COURSE 3 :** Unsupervised Learning, Recommenders, Reinforcement Learning_
+  
+---
+
+_WEEK 9_
