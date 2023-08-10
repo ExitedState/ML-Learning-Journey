@@ -85,3 +85,5 @@ _**start COURSE 3 :** Unsupervised Learning, Recommenders, Reinforcement Learnin
 ---
 
 _WEEK 9_
+- clustering
+- K-means
