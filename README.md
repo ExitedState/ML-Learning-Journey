@@ -9,7 +9,7 @@ This repository documents my self-taught journey to learn Machine Learning from 
 - **Day3** Candidate Elimination
 - **Day4-6** Focused on understanding and implementing the k-NN
 - **Day7** learn more numpy useful functions and methods
- 
+
 _END OF WEEK 1_
 
 ---
@@ -84,6 +84,15 @@ _**start COURSE 3 :** Unsupervised Learning, Recommenders, Reinforcement Learnin
   
 ---
 
-_WEEK 9_
+_WEEK 9,10,11_
 - clustering
 - K-means
+- anomaly detection
+- collaborative filtering
+- content-based filtering
+- reinforcement learning
+- DQN
+
+_**END COURSE 3 :** and start NEWCOURSE : _Deep Learning Specialization_ (5 sub-courses)_ 
+
+---
